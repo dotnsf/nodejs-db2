@@ -2,7 +2,7 @@
 
 ## Restriction
 
-This program use IBM DB2 ODBC Driver. So your system has to be supported by IBM DB2. You can use Windows/Ubuntu/MacOSX/..., but you can NOT use Raspberry Pi for example.
+This program use [ibm_db](https://www.npmjs.com/package/ibm_db) npm library, and this library use IBM DB2 ODBC Driver in it. So your system has to be supported by IBM DB2. You can use Windows/Ubuntu/MacOSX/..., but you can NOT use Raspberry Pi for example.
 
 ## Install
 
@@ -11,6 +11,8 @@ This program use IBM DB2 ODBC Driver. So your system has to be supported by IBM 
 - $ cd nodejs-db2
 
 - $ npm install ibm_db
+
+    - This command install IBM DB2 ODBC CLI Driver.
 
 - edit settings.js with your DB2/dashDB information.
 
